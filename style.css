@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(236, 247, 196);
+}
+    .container {
+        display: flex;
+        align-items: center;
+        align-items: center;   
+                               
+    }    
+
+    
+
+    .child1 {
+        width: 50px;
+        height: 50px;
+        flex-grow: 10;
+        background-color: rgb(65, 56, 6) ;
+        font-size: 40px ;
+        color: azure;
+        text-align: left;
+        padding-left: 50px;
+        padding: auto;
+      }
+
+      .child2 {
+        width: 50px;
+        height: 50px;
+        flex-grow: 3;
+        background-color: rgb(243, 247, 11) ;
+        text-align: center;
+        padding-top: 5px;
+        font-size: 30px;   
+        border: rgb(65, 56, 6) solid;
+      }
+        .child3 {
+        width: 50px;
+        height: 50px;
+        flex-grow: 3;
+        background-color: rgb(243, 247, 11);
+        padding-top: 5px;
+        font-size: 30px;   
+        border: rgb(65, 56, 6) solid;
+        text-align: center;
+        }       
+        
+        .child4 {
+         width: 50px%;
+         height: 50px;
+         flex-grow: 3;
+         background-color: rgb(243, 247, 11); 
+         padding-top: 5px;
+         font-size: 30px;   
+         border: rgb(65, 56, 6) solid;        
+         text-align: center;  
+            } 
+
+            @media (max-width:700px)
+              h1{
+                .container 
+              }
+
+        .child1:hover{
+          font-size: 45px;
+        }
+        .child2:hover{
+          color: red
+                  }
+        .child3:hover{
+          color: red;
+        }
+       .child4:hover{
+         color: red;
+       }
+
+       .img1{
+         width: 100%;
+       }
